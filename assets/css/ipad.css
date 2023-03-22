@@ -1,0 +1,74 @@
+.menu{
+        background: linear-gradient(rgba(0, 0, 0, 0.342),rgba(0, 0, 0, 0.342)), url(../images/b5.jpg) center/cover, no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center center;
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 100vh;
+    }
+ 
+.special-menu {
+    height: 175vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+}
+  .special-menu-item{
+      width: 70%;
+      margin: 0 auto;
+  }
+  .special-menu-pic{
+      justify-content: center;
+      align-items: center;
+      margin-top: 4rem;
+  }
+  .special-menu-item {
+    margin-bottom: 4rem;
+}
+ 
+.menu-image{
+    display: none;
+}
+/* Reservation Area Styling */
+
+.reservation-area{
+    grid-template-columns: .8fr;
+    grid-row-gap: .5rem;
+    height: 200vh;
+    justify-content: center;
+}
+
+.divider-line {
+    display: block;
+    height: .2rem;
+    width: auto;
+    background-color: goldenrod;
+    margin-top: 7rem;
+}
+/* Footer Area Styling */
+.ft{
+    grid-template-columns:1fr ;
+    height: auto;
+    grid-row-gap: 2rem;
+}
+.fot-menu{
+    margin-top: 3rem;
+}
+.social-icon {
+  margin-bottom: 3rem;
+}
+.divider-line-footer {
+    display: inline-block;
+    height: .1rem;
+    width: 10rem;
+    background-color: goldenrod;
+}
+/* From Area Styling */
+
+/* contact area styling */
+.contact-mid-tag-line p {
+    font-size: 1.5rem;
+}
+
